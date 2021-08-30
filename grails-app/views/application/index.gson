@@ -1,0 +1,13 @@
+json {
+    def langs = ['fr']
+    app {
+        name "SUN.SAQ"
+        description "application de base"
+        vesrion "1.0"
+        lang langs
+        development {
+            company "Sun Telecoms"
+            website "https://sun-telecoms.com"
+        }
+    }
+}

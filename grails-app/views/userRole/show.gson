@@ -1,0 +1,10 @@
+import sun.saq.security.UserRole
+
+model {
+	UserRole userRole
+}
+
+json {
+	data tmpl.userRole(userRole ?: [])
+	responseCode OK.value()
+}

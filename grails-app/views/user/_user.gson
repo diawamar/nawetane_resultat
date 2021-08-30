@@ -1,0 +1,16 @@
+import sun.saq.security.User
+
+model {
+	User user
+}
+
+json {
+	id user.id
+	username user.username
+	firstName user.firstName
+	lastName user.lastName
+	email user.email
+	telephone user.telephone
+	enabled user.enabled
+	createdAt user.createdAt
+}

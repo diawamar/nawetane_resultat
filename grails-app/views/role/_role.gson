@@ -1,0 +1,12 @@
+import sun.saq.security.Role
+
+model {
+	Role role
+}
+
+json {
+	id role.id
+	authority role.authority
+	createdAt role.createdAt
+
+}

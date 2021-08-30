@@ -1,0 +1,10 @@
+import sun.saq.suntelecoms.Privileges
+
+model {
+	Privileges privileges
+}
+
+json {
+	data tmpl.privileges(privileges ?: [])
+	responseCode OK.value()
+}
